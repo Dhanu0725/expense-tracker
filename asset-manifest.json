@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/expense-tracker/static/css/main.75938d86.css",
+    "main.js": "/expense-tracker/static/js/main.bd7d1b1b.js",
+    "static/media/fa-solid-900.ttf": "/expense-tracker/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/expense-tracker/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/expense-tracker/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/expense-tracker/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/login-bg.jpg": "/expense-tracker/static/media/login-bg.219c3e5194ac4a666377.jpg",
+    "static/media/fa-regular-400.ttf": "/expense-tracker/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/db.png": "/expense-tracker/static/media/db.a491372b285914e7789b.png",
+    "static/media/fa-regular-400.woff2": "/expense-tracker/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/expense-tracker/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/expense-tracker/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/expense-tracker/index.html",
+    "main.75938d86.css.map": "/expense-tracker/static/css/main.75938d86.css.map",
+    "main.bd7d1b1b.js.map": "/expense-tracker/static/js/main.bd7d1b1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75938d86.css",
+    "static/js/main.bd7d1b1b.js"
+  ]
+}
