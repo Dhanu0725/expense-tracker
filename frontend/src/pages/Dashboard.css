@@ -1,0 +1,83 @@
+/* src/styles/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 229, 229);
+    padding: 120px;
+  }
+  
+  .dashboard-header {
+    background-color: rgb(233, 229, 229);
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    margin-top: -40px;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+    color: black;
+    margin-top: -40px;
+  }
+  
+  .dashboard-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .dashboard-nav a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .dashboard-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .dashboard-content {
+    padding: 1rem;
+  }  
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #d4dce5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: #0a51a2;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.background-image {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  background: url('../assets/db.png') no-repeat center center;
+  z-index: 1;
+  
+}

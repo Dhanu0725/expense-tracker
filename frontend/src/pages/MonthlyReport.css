@@ -1,0 +1,112 @@
+/* General Layout */
+.report-page {
+    padding: 50px 20px;
+    background-color: #eaf0f8;
+    min-height: 100vh;
+}
+
+.report-page h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Dropdown Styling */
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.dropdown-container select {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+.dropdown-container select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Chart Container */
+.monthly-chart-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 800px; 
+    height: 400px; 
+}
+
+.monthly-chart-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* ChartJS Overrides */
+.chartjs-render-monitor {
+    padding: 20px;
+}
+
+/* Chart Styling */
+.chartjs-render-monitor {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Buttons Hover Effect */
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+}
+
+/* Chart Hover Effect */
+.chart-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dropdown-container select {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .chart-container {
+        width: 100%;
+        padding: 10px;
+    }
+}

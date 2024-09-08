@@ -1,0 +1,21 @@
+.analytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.chart-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+}

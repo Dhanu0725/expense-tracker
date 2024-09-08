@@ -1,0 +1,49 @@
+/* General layout */
+.reports-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f4f7fc;
+    min-height: 100vh;
+}
+
+.reports-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Report Buttons */
+.reports-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.reports-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Layout */
+.page-layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .reports-container button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+    

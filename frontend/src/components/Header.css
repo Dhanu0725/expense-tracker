@@ -1,0 +1,51 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Align items to both ends */
+    align-items: center; /* Vertically center items */
+    padding: 10px 20px;
+  }
+  
+  .header-left {
+    flex: 1; /* Takes up space on the left */
+    text-align: left;
+  }
+  
+  .header-title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 400px;
+    font-weight: lighter;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the links and buttons */
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .header-link:hover {
+    color: #000000;
+  }
+  
+  .header-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .header-button:hover {
+    background-color: #035bb8;
+  }
+  

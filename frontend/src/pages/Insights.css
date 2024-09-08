@@ -1,0 +1,60 @@
+/* Insights.css */
+
+.insights-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px; 
+    margin: auto;
+    margin-left: 300px;
+}
+
+.insights-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    margin-left: -110px;
+}
+
+.insights-dropdwon-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.insights-dropdown-container select {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    margin-left: 270px;
+}
+
+.insights-dropdown-container select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.chart-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 520px;
+}
+
+.chart-container h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.chart-container canvas {
+    height: auto;
+    max-width: 500px; /* Adjust to make the pie chart smaller */
+    max-height: 400px;
+}

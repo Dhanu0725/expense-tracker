@@ -1,0 +1,66 @@
+/* src/pages/Home.css */
+
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    background-color: rgb(239, 234, 234);
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .home-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .home-header p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .home-register-button {
+    padding: 8px 16px; 
+    font-size: 0.9rem; 
+    color: #fff;
+    background-color:#007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .home-register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .home-section {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .home-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-section p {
+    font-size: 1rem;
+  }
+  
+  .section-icon {
+    font-size: 3rem; /* Size of the icon */
+    color: #007bff; /* Icon color */
+    margin-bottom: 10px;
+  }

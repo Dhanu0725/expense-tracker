@@ -1,0 +1,110 @@
+.manage-budgets-container {
+    padding: 20px;
+}
+
+.add-budget-button {
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 570px;
+}
+
+.add-budget-button:hover {
+    background-color: #0056b3;
+}
+.budgets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.budgets-table th, .budgets-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.budgets-table th {
+    background-color: #f2f2f2;
+}
+
+.budgets-table th:nth-child(7),
+.budgets-table td:nth-child(7) {
+    width: 50px;
+    text-align: center;
+}
+
+button.edit-button{
+    background-color: rgb(82, 144, 195);
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+
+button.delete-button{
+    background-color: #f44336;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.select-budget-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 570px;
+}
+
+.select-budget-button:hover {
+    background-color: #0056b3;
+}
+
+.budget-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+    z-index: 1; /* Ensure it is above other content */
+}
+
+.budget-categories-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.budget-categories-table th, .budget-categories-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.budget-categories-table th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.pagination a.active {
+    font-weight: bold;
+    color: #0056b3;
+}

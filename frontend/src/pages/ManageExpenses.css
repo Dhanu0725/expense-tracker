@@ -1,0 +1,97 @@
+/* src/pages/ManageExpenses.css */
+
+.manage-expenses-container {
+    padding: 20px;
+    padding-bottom: 100px;
+    padding-top: 0;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.expenses-table th,
+.expenses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.expenses-table th {
+    background-color: #f4f4f4;
+}
+
+.expenses-table th:nth-child(5),
+.budgets-table td:nth-child(5) {
+    width: 50px;
+    text-align: center;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.delete-button:hover{
+    background-color: #9d3024; 
+}
+
+.add-expense-button {
+    position:relative;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    width: 10%;
+    margin-left: 570px;
+    margin-top: 10px;
+    z-index: 1000;
+}
+
+.add-expense-button:hover {
+    background-color: #0056b3;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    font-weight: bold;
+}
+
+.filters select {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.pagination {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.pagination a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.pagination a.active {
+    color: #495057;
+    cursor: default;
+    text-decoration: underline;
+}
