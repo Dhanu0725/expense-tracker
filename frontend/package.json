@@ -2,7 +2,7 @@
   "name": "expense-tracker-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Dhanu0725.github.io/expense-tracker",
+  "homepage": "https://dhanu0725.github.io/expense-tracker/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
